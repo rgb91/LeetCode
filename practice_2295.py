@@ -38,12 +38,6 @@ for old, new in operations:
     del nums[i:i+1]
     k = search_insert_index(nums, new)
     nums[k:k] = [[new, t_pos]]
-    # while i>0 and nums[i][0]<nums[i-1][0]:
-    #     nums[i], nums[i-1] = nums[i-1], nums[i]
-    #     i = i - 1
-    # while i<n-1 and nums[i][0]>nums[i+1][0]:
-    #     nums[i], nums[i+1] = nums[i+1], nums[i]
-    #     i = i + 1
 ret_nums = [-1]*n
 for num, ix in nums:
     ret_nums[ix] = num

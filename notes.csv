@@ -1,0 +1,4 @@
+Problem Number, Category, Difficulty, Notes
+402, greedy, medium, use monotonically non-decreasing stack; delete/pop the digits until k=0
+2320, dp, medium, fibonacci series; two sides are independent so result = number of ways from one size ** 2z`
+2321, greedy, hard, kadane algorithm; details in https://leetcode.com/problems/maximum-score-of-spliced-array/discuss/2199139/100-fasteror-Most-Detailed-solution-for-complete-dummiesor-O(n)-Kadane's-single-loop
